@@ -1,23 +1,121 @@
-   <!DOCTYPE html>
-    <html>
-    <head>
-      <title>Formulir Pendaftaran</title>
-    </head>
-    <body>
-    
-      <h2>Formulir Pendaftaran</h2>
-    
-      <form action="/submit" method="post">
-        <label for="nama">Nama:</label><br>
-        <input type="text" id="nama" name="nama"><br><br>
-    
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email"><br><br>
-    
-        <label for="password">Password:</label><br>
-        <input type="password" id="password" name="password"><br><br>
-    
-        <input type="submit" value="Daftar">
-      </form>
-        </body>
-    </html>   
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>CAFE DIGITAL NUSANTARA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <h1>CAFE DIGITAL NUSANTARA</h1>
+    <ul>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#facilities">Facilities</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="reservation.html">Reservasi</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="hero" class="hero">
+  <div class="hero-content">
+    <h2>Where Coffee Meets Digital</h2>
+    <p>Cafe & Coworking Space untuk Milenial dan Gen-Z</p>
+  </div>
+</section>
+
+<section class="stats">
+  <div><h3>2</h3><p>Cabang</p></div>
+  <div><h3>5000+</h3><p>Pelanggan</p></div>
+  <div><h3>4.8</h3><p>Rating</p></div>
+</section>
+
+<section id="about" class="section">
+  <h2>About Us</h2>
+
+  <h3>Company Story</h3>
+  <p>
+    CAFE DIGITAL NUSANTARA adalah startup kopi kekinian yang menggabungkan
+    cafe dan coworking digital. Berdiri 6 bulan, kini memiliki cabang
+    di Jakarta dan Bandung.
+  </p>
+
+  <h3>Vision & Mission</h3>
+  <p><strong>Visi:</strong> Menjadi jaringan cafe digital nomor 1 di Indonesia.</p>
+  <p><strong>Misi:</strong></p>
+  <ul>
+    <li>Tempat nyaman untuk nongkrong & bekerja</li>
+    <li>Mendukung networking & kolaborasi</li>
+    <li>Kopi premium berkualitas tinggi</li>
+  </ul>
+
+  <h3>Our Team</h3>
+  <div class="team">
+    <img src="assets/images/team1.jpg">
+    <img src="assets/images/team2.jpg">
+    <img src="assets/images/team3.jpg">
+  </div>
+
+  <h3>Our Values</h3>
+  <ul>
+    <li>Innovation</li>
+    <li>Quality</li>
+    <li>Community</li>
+  </ul>
+
+  <h3>Menu Preview</h3>
+  <table class="menu-table">
+    <tr><th>Menu</th><th>Harga</th></tr>
+    <tr><td>Espresso</td><td>Rp25.000</td></tr>
+    <tr><td>Latte</td><td>Rp30.000</td></tr>
+    <tr><td>Croissant</td><td>Rp20.000</td></tr>
+  </table>
+
+  <h3>Signature Items</h3>
+  <div class="signature">
+    <img src="assets/images/signature1.jpg">
+    <img src="assets/images/signature2.jpg">
+    <img src="assets/images/signature3.jpg">
+  </div>
+</section>
+
+<section id="facilities" class="section gray">
+  <h2>Our Facilities</h2>
+  <ul>
+    <li>High Speed WiFi</li>
+    <li>Meeting Room</li>
+    <li>Coworking Space</li>
+    <li>Charging Station</li>
+  </ul>
+
+  <div class="gallery">
+    <img src="assets/images/gallery1.jpg">
+    <img src="assets/images/gallery2.jpg">
+    <img src="assets/images/gallery3.jpg">
+    <img src="assets/images/gallery4.jpg">
+    <img src="assets/images/gallery5.jpg">
+    <img src="assets/images/gallery6.jpg">
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <h2>Contact & Location</h2>
+
+  <p><strong>Jakarta:</strong> Jl. Sudirman No.10</p>
+  <p><strong>Bandung:</strong> Jl. Dago No.25</p>
+
+  <div class="map">Map Placeholder</div>
+
+  <p>Email: info@cafedigitalnusantara.com</p>
+  <p>Phone: 0812-3456-7890</p>
+</section>
+
+<footer>
+  <p>© 2026 CAFE DIGITAL NUSANTARA</p>
+</footer>
+
+</body>
+</html>
